@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Quiz Bank Editor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/app.css">
+        <script type="text/javascript" src="json/question.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Quiz Bank<br>Remover preguntas</h1>
+            <span id="menu"></span>
+            <div id="menubox" style="display: none;">
+            <br><a href="index.html" alt="back to quiz" title="back to quiz"> Regresar al Quiz </a><br><br>
+            <a href="add_questions.html" alt="add questions" title="add questions"> Añadir Preguntas </a>
+            <span id="menudismiss"> X </span>
+            </div>
+        </div>
+
+        <div class="wrapper">
+                <label class="formLabel">Banco de Preguntas:</label><br>
+                
+                <label for="p1">¿Cuando fue campeón por ultima vez el Cruz Azul?</label><br>
+                <div id="showQstn"></div><br><br>
+                <button id="removeQuestions"><p>Remover Preguntas Seleccionadas</p></button><br><br><br>
+                <button id="saveQuestions"><p>Guardar el banco de preguntas</p></button>
+
+        </div>
+        <div id="footer2">
+            <h5>Hecho por Brian Almaraz &copy; Copyright Noviembre 2022</h5>
+        </div>
+        <script src="js/removequestions.js"></script>
+        <script src="js/menu.js"></script>
+    </body>
+</html>
